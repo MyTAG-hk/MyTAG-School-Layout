@@ -1,17 +1,17 @@
 # Structure
 ├── Academy Name (eg. /cityu, /cuhk, /eduhk, /hku, /hkust, /lu, /ouhk, /syu, /vtc)
 
-├── footer.php
+|├── footer.php
 
-├── header.php
+|├── header.php
 
-├── index.php
+|├── index.php
 
-├── step_readme.php
+|├── step_readme.php
 
-├── step_write.php
+|├── step_write.php
 
-└── header_css.php
+|└── header_css.php
 
 =====
 
