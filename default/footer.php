@@ -21,7 +21,12 @@
                 </ul>
             </div>
             <div class="col-sm-6">
-                <p class="pull-right"><a href="http://blog.uoke.org">Uoke Framework</a> v4.5;</p>      
+                <p class="text-info footcss pull-left">
+					<a href="<?= Url('Index/About') ?>">About Mytag</a>
+					<a href="<?= Url('Index/Donation') ?>">Donation</a>
+					<a href="https://github.com/knowsee/MyTag" target="_blank">Change Log</a>
+					<a href="https://github.com/MyTAG-hk/MyTAG-School-Layout" target="_blank">Open Source</a>
+				</p>   
             </div>
         </div>
     </div>

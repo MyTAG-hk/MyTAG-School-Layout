@@ -74,10 +74,10 @@
                             <a href="#"><?= $sSchoolName ?> 資料</a>
                         </li>
                         <li>
-                            <a href="#"><?= $sSchoolName ?> 最新動態</a>
+                            <a href="#">最新動態</a>
                         </li>
-                        <li>
-                            <a href="#">欄目</a>
+						<li>
+                            <a href="/holiday">假期活動動態</a>
                         </li>
                         <li>
                             <a href="#">投遞資料</a>
