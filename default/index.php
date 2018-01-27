@@ -25,16 +25,18 @@ p a.pull-right {
         <div class="col-md-12">
             <div class="panel">
 				<ol class="breadcrumb">
-				  <li class="active">Course教程</li>
+				  <li class="active">現正提供 <?php echo $sSchoolTime['year'].$sSchoolTime['semName'] ?></li>
 				</ol>
                 <div class="mytag-help">
-					<h3>請使用 Chrome 或 Firefox 瀏覽器 進行如下步驟</h3>
+					
 					<ul class="nav nav-tabs" style="display:none;">
 						<li class="active"><a href="#step1" data-toggle="tab">步驟一</a></li>
 						<li><a href="#step2" data-toggle="tab">步驟二</a></li>
 						<li><a href="#step3" data-toggle="tab">步驟三</a></li>
 					</ul>
                     <?= \SelfClass\Controller::loadSTemplate('step_readme') ?>
+					
+					<h3>請使用 Chrome 或 Firefox 瀏覽器</h3>
                 </div>
             </div>
         </div><!--/col-12-->

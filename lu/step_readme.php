@@ -9,8 +9,8 @@
 		<p class="title">Step 8: 全選編碼並複制</p>
 		<p><img src="<?=DOC_URL?>eduhk/Step_8.png" ></p>
 		<br>
-		<p><a href="/step1" class="btn btn-primary pull-right">Next Step <i class="glyphicon glyphicon-chevron-right"></i></a></p> -->
-<!-- 		<p><a class="btn btn-primary pull-right btnNext">Next <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+<!-- 		<p><a href="/step1" class="btn btn-primary pull-right">Next Step <i class="glyphicon glyphicon-chevron-right"></i></a></p> -->
+		<p><a class="btn btn-primary pull-right btnNext">Next <i class="glyphicon glyphicon-chevron-right"></i></a></p>
     </div>
 <!--     <div class="tab-pane fade" id="step2">
 		<br>

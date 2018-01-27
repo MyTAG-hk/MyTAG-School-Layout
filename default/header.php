@@ -2,9 +2,9 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <title><?= $sSchoolEnName ?> Timetable - <?= ucwords($sNikename) ?> Timetable - <?= $sSchoolName ?> Timetable - <?= $sSchoolName ?> 時間表課表 - MyTag Timetables</title>
-        <meta name="keywords" content="<?= $sKeywords ?>">
-        <meta name="description" content="<?= $sDescription ?>">
+        <title><?= $seoPageString ?> <?= $sSchoolEnName ?> Timetable - <?= ucwords($sNikename) ?> Timetable - <?= $sSchoolName ?> Timetable - <?= $sSchoolName ?> 時間表課表 - MyTag Timetables</title>
+        <meta name="keywords" content="<?= $seoPageString ? $seoPageString . ',' : '' ?><?= $sKeywords ?>">
+        <meta name="description" content="<?= $seoPageString ?> <?= $sDescription ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta property="og:url"           content="<?= $sDomainName ?>" />
         <meta property="og:type"          content="website" />
@@ -43,13 +43,6 @@
                 d.getElementsByTagName("head")[0].appendChild(js);
             }(document));
         </script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-9338937370742228",
-    enable_page_level_ads: true
-  });
-</script>
     </head>
     <body>
         <header class="navbar navbar-bright navbar-fixed-top" role="banner">
@@ -113,3 +106,15 @@
             </div><!-- /cont -->
 
         </div>
+		<div class="container">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Mytag-Auto -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-4580389945017951"
+				 data-ad-slot="4577265800"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>

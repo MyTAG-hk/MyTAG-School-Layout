@@ -11,8 +11,8 @@
                         <div class="col-xs-6">
                             <div class="well">
                                 <div class="form-group">
-                                    <label for="password" class="control-label">提取碼</label>
-                                    <input type="password" class="form-control" name="code" value="" required=""  placeholder="Please enter your timetable code">
+                                    <label for="code" class="control-label">提取碼</label>
+                                    <input type="text" class="form-control" name="code" value="" required=""  placeholder="Please enter your timetable code">
                                     <span class="help-block"></span>
                                 </div>
                                 <div id="messageBox" class="alert alert-info" style="display: none;">
@@ -23,11 +23,11 @@
                             </div>
                         </div>
                         <div class="col-xs-6">
-                            <p class="lead">生成一份時間表 <span class="text-success">免費</span></p>
+                            <p class="lead">生成 <span class="text-success">一份</span> 時間表</p>
                             <ul class="list-unstyled" style="line-height: 2">
-                                <li><span class="fa fa-check text-success"></span> 快捷查閲課表信息</li>
-                                <li><span class="fa fa-check text-success"></span> 方便導入各類智慧手機</li>
-                                <li><span class="fa fa-check text-success"></span> 一人導入全班皆可用</li>
+                                <li><span class="fa fa-check text-success"></span> 快捷查閲課表資訊</li>
+                                <li><span class="fa fa-check text-success"></span> 方便匯入各類智慧手機</li>
+                                <li><span class="fa fa-check text-success"></span> 一人匯入全班皆可用</li>
                             </ul>
                             <p><a href="#" class="btn btn-info btn-block">查閲更多幫助，點此處</a></p>
                         </div>
@@ -49,8 +49,8 @@ $this->view['JsHtml'] = <<<EOF
             $.post(mianUrl+'Index/getCode', {code:$('input[name="code"]').val()}, function(data) {
                 var result = data.data;
                 if(data.code == 200) {
-                    $('#messageBox').html('下載鏈接已彈出，如被攔截請點擊允許');
-                    window.open(mianUrl+'d/'+result.shortTag);
+                    $('#messageBox').html('下載連結已彈出，如被攔截請「允許」');
+                    window.open(mianUrl+'Index/TableView?code='+result.shortTag);
                 } else {
                     $('#messageBox').html(data.message);
                 }

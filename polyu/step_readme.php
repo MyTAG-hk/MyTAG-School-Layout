@@ -11,7 +11,7 @@
 		<p class="title">然後，選取(Highlight)整個時間表，再按右鍵->複製</p>
 		<p><img src="<?=DOC_URL?>polyu/pu103.jpg" ></p>
 		<br>
-		<p><a href="/step1" class="btn btn-primary pull-right">Next Step <i class="glyphicon glyphicon-chevron-right"></i></a></p> -->
+		<p><a href="/step1" class="btn btn-primary pull-right">Next Step <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 <!-- 		<p><a class="btn btn-primary pull-right btnNext">Next <i class="glyphicon glyphicon-chevron-right"></i></a></p>
     </div>
 <!--     <div class="tab-pane fade" id="step2">
