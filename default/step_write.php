@@ -18,8 +18,7 @@
 						
 						<div class="row">
                             <div class="col-md-12">
-							<p>如何複製出代碼來？</p>
-							<p><img src="<?=DOC_URL?>eduhk/Step_8.png" width="700" ></p>
+							<p>請將之前教學所複製的時間表數據貼上</p>
                             </div>
                         </div>
                         <div class="row">
