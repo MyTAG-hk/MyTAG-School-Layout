@@ -11,7 +11,10 @@
     min-height: 127px;
 }
 .navbar-bright {
-	background-color: #006544;
+    background-color: #50b584;
+}
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover, .navbar-nav > li.active {
+	background-color: #339966;
 }
 .navbar-bright a {
 	color: #FFF;

@@ -60,20 +60,17 @@
 						<li>
                             <a href="<?= siteUrl('mainUrl') ?>">返回MyTag</a>
                         </li>
+						<li <?= Contrasts(M, 'Index', 'class="active"') ?>>
+                            <a href="/"><?= $sSchoolName ?></a>
+                        </li>
                         <li <?= Contrasts(M, 'Code', 'class="active"') ?>>
                             <a href="/code">短碼提課表</a>
-                        </li>
-                        <li>
-                            <a href="#"><?= $sSchoolName ?> 資料</a>
                         </li>
                         <li>
                             <a href="#">最新動態</a>
                         </li>
 						<li>
                             <a href="/holiday">假期活動動態</a>
-                        </li>
-                        <li>
-                            <a href="#">投遞資料</a>
                         </li>
 						<li style="padding: 13px;">
 							<div class="fb-like" data-href="http://www.facebook.com/HKTimeTable" data-send="true" data-layout="button_count" data-width="100" data-show-faces="false"></div>
@@ -85,19 +82,23 @@
         <div id="masthead">  
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-6">
+						<div style="padding:30px 10px 10px 0;">
 					<?php if($sHSchoolLogo):?>
-						<img src="<?=$sHSchoolLogo?>" class="img-responsive">
+						<a href="/" style="color: #fff"><img src="<?=$sHSchoolLogo?>" class="img-responsive"></a>
 					<?php else: ?>
                         <h1><a href="/" style="color: #fff"><?= $sSchoolName ?></a></h1>
 						<h3 style="padding-left: 40%">Mytag 時間表</h3>
 					<?php endif; ?>
+						</div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="well well-lg"> 
                             <div class="row">
-                                <div class="col-sm-12">
-                                    
+                                <div class="col-sm-12" style="height: 100px;">
+								<p style="font-size:20px;"><?= $sSchoolName ?>現正提供 <?php echo $sSchoolTime['year'].'-'.$sSchoolTime['semName'] ?>課表處理</p>
+								
+								<p><?= $sSchoolNotice ?></p>
                                 </div>
                             </div>
                         </div>

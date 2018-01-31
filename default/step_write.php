@@ -6,7 +6,7 @@
             <div class="col-md-12"> 
                 <div class="panel">
 					<ol class="breadcrumb">
-					  <li>現正提供 <?php echo $sSchoolTime['year'].$sSchoolTime['semName'] ?></li>
+					  <li><a href="/"><?= $sSchoolName ?></a></li>
 					  <li class="active">提交代碼</li>
 					</ol>
                     <div class="panel-body">
@@ -15,8 +15,7 @@
                                 <p> <span style="font-size: 18px; color: black;"><?= $sSchoolName ?></span> 課表生成 <a href="/">【查閲幫助】</a></p>
                             </div>
                         </div>
-						
-						<div class="row">
+                        <div class="row">
                             <div class="col-md-12">
 							<p>請將之前教學所複製的時間表數據貼上</p>
                             </div>
@@ -58,7 +57,7 @@
                                 </div>
                                 <hr>
                                 <div class="input-group">
-                                    <span class="input-group-addon">分享文件地址</span>
+                                    <span class="input-group-addon">訂閱 iCal地址</span>
                                     <input type="text" name="shareUrl" class="form-control" value="">
                                 </div>
                                 <div class="input-group">
